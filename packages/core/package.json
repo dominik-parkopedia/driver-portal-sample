@@ -1,0 +1,14 @@
+{
+  "name": "@driver-portal/core",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.5",
+    "@types/node": "^20.6.5",
+    "sst": "^2.26.5"
+  }
+}
